@@ -9,3 +9,10 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
 });
+
+
+function add(a,b){
+    return a+b
+}
+
+console.log(add(2,3))
